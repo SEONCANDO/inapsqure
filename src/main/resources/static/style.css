@@ -254,3 +254,115 @@ footer .f_info span {
 .about_box a:hover {
     text-decoration: underline !important;
 }
+
+/* 로그인 화면 */
+legend {
+    visibility: hidden;
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+    width: 0;
+    height: 0;
+    line-height: 0;
+}
+
+.inner, .inner_in {
+    width: 860px;
+    margin: 0 auto;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.path {
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    *zoom: 1;
+    display: none;
+}
+
+.titleArea {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.titleArea h2 {
+    display: block;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    *display: inline;
+    *zoom: 1;
+    letter-spacing: 1px;
+}
+
+.member-login {
+    margin: 30px 0 0 0;
+    text-align: center;
+    color: #000;
+}
+
+.member-login .login {
+    margin: 0 auto 3px;
+    padding: 20px 0;
+    border: none;
+    width: 342px;
+}
+
+.member-login .login fieldset {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.member-login h3 {
+    margin: 0 0 20px 0;
+    text-align: left;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.login fieldset .link {
+    width: 340px;
+    text-align: left;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: normal;
+    padding: 20px 0 0;
+    border-top: 1px solid #000;
+    margin: 25px 0 0;
+}
+
+.btnArea a.point, .member-login .login fieldset .link a {
+    color: #fff;
+    background: #0a0a0a;
+    border: 1px solid #0a0a0a;
+}
+
+.btnArea a.point {
+    display: inline-block;
+    min-width: 60px;
+    padding: 6px 17px;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.member-login .login fieldset .link a {
+    padding: 30px 48px;
+    position: absolute;
+    top: 315px;
+    right: 0;
+}
+
+@media (min-width: 1280px) {
+    .member-login .login {
+        margin: 0 0 3px 0;
+        width: auto;
+    }
+
+    .member-login .login fieldset .link a {
+        position: absolute;
+        top: 51px;}
+}
