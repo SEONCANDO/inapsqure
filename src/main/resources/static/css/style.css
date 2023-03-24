@@ -4,7 +4,7 @@
 a {
     text-decoration: none;
     color: #000;
-    font-family: 'Lato','nanumbarungothic',나눔바른고딕,sans-serif;
+    font-family: 'Lato','nanumbarungothic',나눔바른고딕, sans-serif;
     background-color: transparent;
 }
 
@@ -138,7 +138,7 @@ header .login_box a:hover {
 }
 
 #section0{
-    background-image: url(imgs/01.jpg);
+    background-image: url(../imgs/01.jpg);
 }
 #section0 h1{
     top: 50%;
@@ -146,11 +146,11 @@ header .login_box a:hover {
     position: relative;
 }
 #section1{
-    background-image: url(imgs/02.jpg);
+    background-image: url(../imgs/02.jpg);
     padding: 6% 0 0 0;
 }
 #section2{
-    background-image: url(imgs/03.jpg);
+    background-image: url(../imgs/03.jpg);
     padding: 6% 0 0 0;
 }
 
@@ -349,7 +349,7 @@ legend {
     letter-spacing: 1px;
 }
 
-.member-login .login fieldset .link a {
+#join_btn {
     padding: 30px 48px;
     position: absolute;
     top: 315px;
@@ -362,7 +362,7 @@ legend {
         width: auto;
     }
 
-    .member-login .login fieldset .link a {
+    #join_btn {
         position: absolute;
         top: 51px;}
 }
